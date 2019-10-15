@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PruebaCalculadora</string>
+
+    <string name="suma">Suma</string>
+    <string name="suma2">Resultado de la suma</string>
+
+
+    <string name="resta">Resta</string>
+    <string name="resta2">Anterior</string>
+
+    <string name="multiplicacion">Resultado de la resta</string>
+    <string name="division">Resultado de la resta</string>
+
+
+
+</resources>

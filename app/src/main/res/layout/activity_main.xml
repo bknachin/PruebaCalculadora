@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero 1"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero 2"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnsuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Suma1"
+        android:text="@string/suma" />
+
+    <Button
+        android:id="@+id/btnresta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Resta1"
+        android:text="@string/resta" />
+
+    <Button
+        android:id="@+id/btnmultiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicacion" />
+
+    <Button
+        android:id="@+id/btndivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division" />
+
+    <TextView
+        android:id="@+id/resultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado" />
+</LinearLayout>
